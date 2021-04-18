@@ -1,0 +1,11 @@
+server:
+  port: 8089
+
+oauth2:
+  github:
+    loginUrl: https://github.com/login/oauth/authorize
+  demo:
+    clientId: cc532ae35fe5aca91a43
+    secretKey: 39bb61238c631f5c5e943e263229b24670ac847d
+    authUrl: http://localhost:8089/oauth/login
+
